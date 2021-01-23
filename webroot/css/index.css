@@ -6,7 +6,13 @@ html {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background: url(../images/bg_tablet_pattern.svg), url(../images/illustration_intro.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: 65px, 12px;
+  background-position-y: -20px, 113px;
+  background-size: 100%, 90%;
+  background-blend-mode: overlay; }
 
 ul {
   list-style: none;
@@ -17,6 +23,20 @@ body > header {
   margin-left: 16px;
   margin-right: 16px; }
 
+@media (min-width: 768px) {
+  body {
+    background: url(../images/bg_tablet_pattern.svg), rgba(0, 0, 0, 0.001);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: 770px, 650px;
+    background-position-y: -240px, 235px;
+    background-size: 65%, 45%; }
+  main {
+    background: url(../images/illustration_intro.svg);
+    background-repeat: no-repeat;
+    background-position-x: 715px;
+    background-position-y: 145px;
+    background-size: 40%; } }
+
 body > header {
   display: flex;
   flex-direction: row;
@@ -26,6 +46,15 @@ body > header {
   border-radius: 0 0 85% 85% / 10%;
   margin-top: 1rem;
   margin-bottom: 1rem; }
+
+main > header {
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem; }
+
+@media (min-width: 768px) {
+  main > header {
+    text-align: left; } }
 
 @media (min-width: 992px) {
   body > header, main > header {
@@ -51,7 +80,7 @@ body > header {
   padding: 0;
   text-align: center;
   position: relative;
-  width: 80%;
+  width: 90%;
   margin: auto;
   background-color: white;
   border: 0;
@@ -159,7 +188,6 @@ body > header > label {
     border-radius: unset;
     box-shadow: unset; }
   .open_menu:checked ~ .navigation {
-    transform: translateY(0);
     top: 20px;
     display: block; }
   .navigation__item {
@@ -172,3 +200,27 @@ body > header > label {
     justify-content: center; }
   .navigation__body {
     display: block; } }
+
+.masthead {
+  padding-block-start: 16rem; }
+
+.heading {
+  letter-spacing: normal;
+  font-style: normal;
+  color: #242d52;
+  font-size: 30px;
+  line-height: 60px; }
+
+.masthead > ul {
+  padding-block-start: 2rem; }
+
+@media (min-width: 600px) {
+  .masthead {
+    padding-block-start: 133px; } }
+
+@media (min-width: 768px) {
+  .masthead {
+    max-width: 550px; }
+  .heading {
+    font-size: 60px;
+    line-height: 65px; } }

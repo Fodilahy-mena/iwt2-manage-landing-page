@@ -7,6 +7,12 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background: url(../images/bg_tablet_pattern.svg), url(../images/illustration_intro.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: 65px, 12px;
+    background-position-y: -20px, 113px;
+    background-size: 100%, 90%;
+    background-blend-mode: overlay;
 }
 
 ul {
@@ -18,4 +24,22 @@ ul {
 body > header {
     margin-left: 16px;
     margin-right: 16px;
+}
+
+@media (min-width: 768px) {
+    body {
+        background: url(../images/bg_tablet_pattern.svg), rgba(0, 0, 0, 0.001);
+        background-repeat: no-repeat, no-repeat;
+        background-position-x: 770px, 650px;
+        background-position-y: -240px, 235px;
+        background-size: 65%, 45%;
+    }
+
+    main {
+        background: url(../images/illustration_intro.svg);
+        background-repeat: no-repeat;
+        background-position-x: 715px;
+        background-position-y: 145px;
+        background-size: 40%;
+    }
 }

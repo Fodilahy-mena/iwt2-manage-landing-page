@@ -1,0 +1,32 @@
+
+.masthead {
+    padding-block-start: 16rem;
+}
+.heading {
+    letter-spacing: normal;
+    font-style: normal;
+    color: #242d52;
+    font-size: 30px;
+    line-height: 60px;
+}
+.masthead > ul {
+    padding-block-start: 2rem;
+}
+
+@media (min-width: 600px) {
+    .masthead {
+    padding-block-start: 133px;
+}
+}
+
+@media (min-width: 768px) {
+    .masthead {
+        max-width: 550px;
+    }
+
+    .heading {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+}

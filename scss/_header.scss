@@ -1,4 +1,6 @@
-
+body > header {
+    
+}
 body > header {
     display: flex;
     flex-direction: row;
@@ -10,6 +12,17 @@ body > header {
     margin-bottom: 1rem;
 }
 
+main > header {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+    main > header {
+    text-align: left;
+}
+}
 @media (min-width: 992px) {
     body > header, main > header {
         padding-inline-start:4rem;
