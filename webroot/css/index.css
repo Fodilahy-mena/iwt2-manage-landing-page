@@ -23,6 +23,13 @@ body > header {
   margin-left: 16px;
   margin-right: 16px; }
 
+p {
+  color: #9095a7; }
+
+.section__features, .section__testimonials {
+  margin-left: 16px;
+  margin-right: 16px; }
+
 @media (min-width: 768px) {
   body {
     background: url(../images/bg_tablet_pattern.svg), rgba(0, 0, 0, 0.001);
@@ -36,6 +43,11 @@ body > header {
     background-position-x: 715px;
     background-position-y: 145px;
     background-size: 40%; } }
+
+@media (min-width: 1114px) {
+  .section__features, .section__testimonials {
+    padding-inline-start: 4rem;
+    padding-inline-end: 6rem; } }
 
 body > header {
   display: flex;
@@ -224,3 +236,26 @@ body > header > label {
   .heading {
     font-size: 60px;
     line-height: 65px; } }
+
+.section__features {
+  margin-top: 120px; }
+
+.section__features > header {
+  text-align: center; }
+
+.section__features h2 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: #242d52; }
+
+.features__list {
+  margin-top: 64px; }
+
+.features__item button {
+  font-weight: 700;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f25f3a; }

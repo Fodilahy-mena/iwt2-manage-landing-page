@@ -1,0 +1,32 @@
+
+.section__features {
+    margin-top: 120px;
+}
+.section__features > header {
+    text-align: center;
+}
+.section__features h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: hsl(228, 39%, 23%);
+}
+
+.features__list {
+    margin-top: 64px;
+}
+
+.features__item button {
+    font-weight: 700;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    background-color:hsl(12, 88%, 59%);
+}
+
+@media (min-width: 1114px) {
+    .section__features {
+
+    }
+}

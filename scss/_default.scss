@@ -26,6 +26,18 @@ body > header {
     margin-right: 16px;
 }
 
+p {
+    color: hsl(227, 12%, 61%);
+}
+
+.section__features, .section__testimonials {
+    // text-align: center;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+
+
 @media (min-width: 768px) {
     body {
         background: url(../images/bg_tablet_pattern.svg), rgba(0, 0, 0, 0.001);
@@ -41,5 +53,12 @@ body > header {
         background-position-x: 715px;
         background-position-y: 145px;
         background-size: 40%;
+    }
+}
+
+@media (min-width: 1114px) {
+    .section__features, .section__testimonials {
+    padding-inline-start:4rem;
+    padding-inline-end: 6rem;
     }
 }
