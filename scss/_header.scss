@@ -26,7 +26,9 @@ main > header {
 }
 @media (min-width: 992px) {
     body > header, main > header {
-        padding-inline-start:4rem;
-        padding-inline-end: 6rem;
+        padding-inline-start: 8rem;
+        padding-inline-end: 4rem;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
