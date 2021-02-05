@@ -333,6 +333,46 @@ body > header > label {
   background-color: #fafafa;
   border-radius: 5px; }
 
+.anisha::before {
+  content: '';
+  position: absolute;
+  background: url(../images/avatar_anisha.png);
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -110%); }
+
+.ali::before {
+  content: '';
+  position: absolute;
+  background: url(../images/avatar_ali.png);
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -110%); }
+
+.richard::before {
+  content: '';
+  position: absolute;
+  background: url(../images/avatar_richard.png);
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -110%); }
+
+.shanai::before {
+  content: '';
+  position: absolute;
+  background: url(../images/avatar_shanai.png);
+  background-size: cover;
+  background-position: center;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -110%); }
+
 @media (min-width: 1114px) {
   .testimonials__list {
     display: flex;
